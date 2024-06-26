@@ -2,7 +2,7 @@ package main
 
 import "github.com/gin-gonic/gin"
 
-func main () {
+func application () {
 	r := gin.Default()
 
 	r.GET("/hello", func(req *gin.Context) {
